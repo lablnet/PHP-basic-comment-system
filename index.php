@@ -65,7 +65,7 @@ while($row = $show->fetchObject()){
 	$time = $row->time;
 ?>
 <h5><?php echo $name; ?>  <i><?php echo $time;?></i></h5>
-<p><i><?php echo $email; ?><i></p>
+<p><i><?php echo $email; ?></i></p>
 <p><?php echo $comment; ?></p><hr />
 <?php } ?>
 </body>
